@@ -1,7 +1,7 @@
 package com.mycompany.java;
 import java.util.Scanner;
 
-public class figuras2 {
+public class Java {
     public static void main(String[] args) {
         q2();
     }
@@ -36,7 +36,7 @@ public class figuras2 {
                 System.out.print(" ");
             }
             for (int j=1; j<=(i*2)+1 ;j++) {
-                if (j==num-i+1 || j==num+i-1) {
+                if (j==1 || j==(i*2)+1 || i==num-1) {
                     System.out.print("*");
                 }
                 else {
